@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="style.css">
 
   </head>
-  <header>
-    <img src="images/violin.png" class="violine">
-    <nav>
+  <header id="header">
+    <img src="images/violin.png" id="header-img">
+    <nav id="nav-bar">
       <ul>
-        <li><a href="#Easter">Home</a></li>
-        <li><a href="#Easter">Eastar</a></li>
-        <li><a href="#Stentor">Stentor</a></li>
-        <li><a href="#Primavera" >Primavera</a></li>
-        <li><a href="#video">Violine Video</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-link" href="#Easter">Home</a></li>
+        <li><a class="nav-link" href="#Easter">Easter</a></li>
+        <li><a class="nav-link" href="#Stentor">Stentor</a></li>
+        <li><a class="nav-link" href="#Primavera">Primavera</a></li>
+        <li><a class="nav-link" href="#video">Video</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
     <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
@@ -27,12 +27,12 @@
       <div class="bar2"></div>
       <div class="bar3"></div>
       <ul class="mobile-menu">
-        <li><a href="#Easter">Home</a></li>
-        <li><a href="#Easter">Eastar</a></li>
-        <li><a href="#Stentor">Stentor</a></li>
-        <li><a href="#Primavera" >Primavera</a></li>
-        <li><a href="#video">Violine Video</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="nav-link"><a href="#Easter">Home</a></li>
+        <li class="nav-link"><a href="#Easter">Eastar</a></li>
+        <li class="nav-link"><a href="#Stentor">Stentor</a></li>
+        <li class="nav-link"><a href="#Primavera" >Primavera</a></li>
+        <li class="nav-link"><a href="#video">Violine Video</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </header>
@@ -49,7 +49,11 @@
         <p>Eastar is a brand that is well known for their entry level instruments, from drums to saxophones, trumpets to violins. The brand puts each and every instrument through two in house quality inspections before leaving the manufacturing floor.</p>
         <p>The drawback of the wide selection of instruments is that they don’t specialize in any one sort of instrument, so you won’t find the finer details that other purely violin manufacturers will have.</p>
         <p>On the plus side, they have the manufacturing process down to a science, giving them the ability to produce a good beginner violin for less than many other manufacturers. Their violins also generally come with accessory kits, so a beginner will have everything needed to tune, store and play their violin!</p>
-        <button id="button">Buy now</button>
+        
+        <button id="submit" onclick="window.location.href='https://donnerde.com/products/eastar-4-4-geige-fur-anfanger-violine-akustische-starter-set-kinder-erwachsene-mit-koffer-schulterstutze-bogen-kolophonium-und-saiten-eva-1?currency=EUR&variant=40573448585376&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&utm_medium=10002&utm_content=0000&utm_term=google&utm_campaign=laolao-ssc-roas-o-aud-0807&gclid=Cj0KCQiAmpyRBhC-ARIsABs2EApIsBNiruxyHPxX81FIxrDmnUzJG7ZSSXG9GN2GUg7EHTcTRrURG_gaAhc8EALw_wcB';">
+          Buy now
+        </button>
+        
         
         
       </article>
@@ -68,7 +72,9 @@
       <p>Stentor bills themselves as a leading manufacturer of student violins and orchestral stringed instruments. We agree!</p>
       <p>While you will never see a Stentor on stage in a professional orchestra, you will see plenty of the in school performances and in the hands of those trying to learn to play. One of my first violins was a Stentor and I still have a soft spot in my heart for these instruments!</p>
       <p>Most of their instruments use a combination of spruce and maple construction to produce a quality sound, but at the same time keep the price down. You’ll also see things like nylon strings and alloy bridges and tailpieces which help them provide lower costing quality instruments!</p>
-      <button id="button">Buy now</button>
+      <button id="submit" onclick="window.location.href='https://www.kirstein.de/Violinen/Stentor-SR1400-4-4-Student-I-Violinset.html?gclid=Cj0KCQiAmpyRBhC-ARIsABs2EAr8h7QQtP3nAuoJ1Zb1r18iuzewZS40mA4eNxheSSMFDsp2C2yAVmgaAiPtEALw_wcB';">
+        Buy now
+      </button>
       
       
     </article>
@@ -86,7 +92,9 @@
     <h2> Primavera Violins</h2>
     <p>Primavera is a United Kingdom based company, and might be a little hard to get in the United States</p>
     <p>If you want to shop for a deal on shipping, or are already in the UK or Europe, there aren’t too many better options than Primavera for beginner violins!</p>
-    <button id="button">Buy now</button>
+    <button id="submit" onclick="window.location.href='https://www.gear4music.com/Violins/Primavera';">
+      Buy now
+    </button>
     
     
   </article>
@@ -126,7 +134,7 @@
               </div>
               <div class="form-group">
                 <label id="submit-label" for="submit"></label>
-                <input id="button" type="submit" value="Send" class="btn" />
+                <input id="submit" type="submit" value="Send" class="btn" />
                 
               </div>
             </form>
