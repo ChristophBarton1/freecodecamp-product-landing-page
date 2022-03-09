@@ -75,7 +75,7 @@ p {
   font-size: 1em;
   text-align: center;
 }
-#button {
+#submit {
   cursor: pointer;
   font-size: 14px;
   line-height: 1;
@@ -95,15 +95,11 @@ p {
   height: 48px;
 }
 
-#button:hover {
+#submit:hover {
   transform: scale(1.04);
   background-color: #3a24f0;
 }
 
-#header-img {
-  height: 60px;
-  width: 60px;
-}
 #contact {
   display: flex;
   align-items: center;
@@ -302,7 +298,7 @@ ul li:hover {
     display: block;
   }
 
-  .violine {
+  #header-img {
     display: none;
   }
 }
